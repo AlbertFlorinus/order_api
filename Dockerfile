@@ -1,5 +1,6 @@
 # Use a base image
-FROM node:latest
+#FROM node:latest
+FROM node:16
 
 # Install sqlite3
 RUN apt-get update
